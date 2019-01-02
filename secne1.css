@@ -3,13 +3,12 @@
 }
 
 body
-{  
-    width: 100%;
+{  width: 100%;
    height: 100%;
    margin:0px; 
    padding:0px; 
    background-image: url("bg33.jpg");
-   background-size:cover;
+   background-size: auto;
    background-position: center;
    background-repeat: no-repeat;
    min-width: 1000px;
@@ -28,8 +27,6 @@ header
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height:100px;
-    
-    
 }
 
 #option 
@@ -39,7 +36,6 @@ header
     margin-top: 1%;
     margin-left: 2%;
     padding: 0px;
-    
     
    
 }
@@ -71,17 +67,16 @@ header
     display: inline; 
 }
 #hint 
-{  
-   width: 150px;
-   float: left;
-   margin-left: 9%;
-   margin-right: 0px;
-   margin-top: -3px;
-  
+{   
+    width: 150px;
+    float: left;
+    margin-left: 9%;
+    margin-right: 0px;
+    margin-top: -3px;
+   
 }
 #hint img
-{    
-    position: relative;
+{   position: relative;
     top:10%;
     right:3%;
     /* margin-top:20px; */
@@ -92,7 +87,7 @@ header
     border-top-left-radius: 38px;
     border-top-right-radius: 27px;
     border-bottom-left-radius: 57px;
-    border-bottom-right-radius: 57px; 
+    border-bottom-right-radius: 57px;
 }
 #hint img:hover
 {  
@@ -100,13 +95,12 @@ header
 }
 #itemstofind
 { 
-   width: 700px;
-   height:45px ;
-   float: left;
-   margin-top: 2%;
-   margin-left: 5%;
-   margin-right: 0px;
-  
+    width: 700px;
+    height:45px ;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 0px;
 }
 #itemstofind ul li
 {
@@ -127,7 +121,7 @@ header
     border: solid black;
     border-radius: 30px;
     
-    background-image: url("scene1.jpeg");
+    background-image: url("scene22.jpeg");
     width: 1200px;
     height: 600px;
     margin: auto;
@@ -145,12 +139,12 @@ header
 #img1
 {
     margin-top: 1%;
-    margin-left:30%; 
+    margin-left:85%; 
     margin-right: 0px;
     margin-bottom: 0px;
     width: 60px;
     height:60px;
-    transform: rotate(50deg);
+   
 }
 #play2
 {
@@ -160,11 +154,11 @@ header
    
 }
 #img2
-{   margin-top:7%;
-    margin-left:1%;
+{   margin-top:3%;
+    margin-left:17%;
     padding: 0px;
-    width: 35px;
-    height:35px;
+    width: 30px;
+    height:30px;
 } 
 #play3
 {   padding: 0px;
@@ -173,8 +167,8 @@ header
 } 
 #img3
 {
-margin-left: 86%;
-margin-top: 0px;
+margin-left: 33%;
+margin-top: 1%;
 width: 50px;
 height:50px;
 }
@@ -187,7 +181,7 @@ height:50px;
 {
 margin-left: 56%;
 margin-top: 7%;
-width: 35px;
+width: 50px;
 height:35px;
 }
 #play5
@@ -198,9 +192,9 @@ height:35px;
 #img5
 {
 width: 50px;
-height: 35px;
+height: 50px;
 margin-top:35px;
-margin-left: 45px;
+margin-left: 60px;
 transform: rotate(20deg);
 }
 #done
